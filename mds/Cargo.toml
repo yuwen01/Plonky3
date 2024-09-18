@@ -9,18 +9,18 @@ keywords.workspace = true
 categories.workspace = true
 
 [dependencies]
-p3-dft = { path = "../dft" }
-p3-field = { path = "../field" }
-p3-matrix = { path = "../matrix" }
-p3-symmetric = { path = "../symmetric" }
-p3-util = { path = "../util" }
+p3-dft = { path = "../dft", workspace.version = true }
+p3-field = { path = "../field", workspace.version = true }
+p3-matrix = { path = "../matrix", workspace.version = true }
+p3-symmetric = { path = "../symmetric", workspace.version = true }
+p3-util = { path = "../util", workspace.version = true }
 rand = { version = "0.8.5", features = ["min_const_gen"] }
 itertools = "0.12.0"
 
 [dev-dependencies]
 criterion = "0.5.1"
 p3-baby-bear = { path = "../baby-bear" }
-p3-goldilocks = { path = "../goldilocks" }
+p3-goldilocks = { path = "../goldilocks", workspace.version = true }
 p3-mersenne-31 = { path = "../mersenne-31" }
 
 [[bench]]

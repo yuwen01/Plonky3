@@ -9,14 +9,14 @@ keywords.workspace = true
 categories.workspace = true
 
 [dependencies]
-p3-field = { path = "../field" }
-p3-mds = { path = "../mds" }
-p3-symmetric = { path = "../symmetric" }
+p3-field = { path = "../field", workspace.version = true }
+p3-mds = { path = "../mds", workspace.version = true }
+p3-symmetric = { path = "../symmetric", workspace.version = true }
 rand = "0.8.5"
 
 [dev-dependencies]
 p3-baby-bear = { path = "../baby-bear" }
-p3-goldilocks = { path = "../goldilocks" }
+p3-goldilocks = { path = "../goldilocks", workspace.version = true }
 p3-mersenne-31 = { path = "../mersenne-31" }
 criterion = "0.5.1"
 
