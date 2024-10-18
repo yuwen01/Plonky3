@@ -1,3 +1,5 @@
+#![cfg_attr(not(feature = "parallel"), no_std)]
+
 #[cfg(feature = "parallel")]
 pub mod prelude {
     pub use rayon::join;

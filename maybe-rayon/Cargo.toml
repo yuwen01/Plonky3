@@ -5,6 +5,7 @@ license = "MIT OR Apache-2.0"
 version = "0.1.0"
 edition = "2021"
 
+# Enabling the "parallel" feature will also enable the standard library. 
 [features]
 parallel = ["rayon"]
 
